@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patrick Schulz</title>
+    <description>Welcome to my personal webite. Feel free to bookmark to follow my projects</description>
+    <link>http://localhost:4000/jekyll-uno/</link>
+    <atom:link href="http://localhost:4000/jekyll-uno/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 26 Jun 2018 18:47:46 -0400</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 18:47:46 -0400</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Avalanche Prediction Model</title>
+        <description>&lt;p&gt;This is a Python based application that takes in historical weather data from winter 2017/2018 and elevation data taken by NASA’s Shuttle Radar Topgraphy Misson (SRTM) and creates an risk analysis of any region in the greater Salt Lake City area on any date in the winter season. It contains a command line GUI for the user to imput the name of the area along with four latitude and longitude bounds and outputs a interactive 2D and 3D map for the user to see where the safest area is to ski. An example for Park City, Utah for April 1, 2018 in 3D is seen below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/jekyll-uno/assets/ava3D.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;the example for 2D is seen below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/jekyll-uno/assets/ava2D.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The engine of this program is broken up into three seperate parts. Part one works on taking elevation data given from the SRTM and finding the specific angle of every 40 meter section of the region. Part two creates a snowpack model, an eveluation of each layer of snow, by using the Scipy ordinary diffrental equations module in addition with all the the weather data for all days starting from the begining of the season. The third part of this engine cross referances the snowpack model with the specific angle at each point. This part then adds an extra stress variable for a skiier going down the face of the region. From this data the specific risk of an avalanche from a skier can be found.&lt;/p&gt;
+
+&lt;p&gt;Updates for this program will be coming. These updates will include global historical data so the program can be run anywhere with out limitations. In addition a gradent risk anylysis will be implimented for better user experience.&lt;/p&gt;
+
+&lt;p&gt;Check out the on my &lt;a href=&quot;https://github.com/Patrick-Schulz&quot;&gt;github&lt;/a&gt; for more info about this project and other.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 May 2018 11:04:23 -0400</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2018/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2018/welcome-to-jekyll/</guid>
+        
+        <category>Python</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Laplace Equation Solved by Iterations</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 20 Apr 2017 11:04:23 -0400</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2017/name-of-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2017/name-of-post/</guid>
+        
+        <category>MATLAB</category>
+        
+        
+        <category>MATLAB</category>
+        
+      </item>
+    
+      <item>
+        <title>Laplace Equation Solved by Iterations</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 20 Apr 2017 11:04:23 -0400</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2017/name-of-post-copy/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2017/name-of-post-copy/</guid>
+        
+        <category>MATLAB</category>
+        
+        
+        <category>MATLAB</category>
+        
+      </item>
+    
+  </channel>
+</rss>

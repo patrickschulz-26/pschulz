@@ -1,0 +1,18 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* TEAM */
+Developer & Designer: Patrick Schulz
+Location: Clarence, NY, USA
+						
+/* THANKS */
+Name: Dale Anthony
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Sublime Text, Photoshop
