@@ -1,8 +1,8 @@
 # Site settings
 title: Patrick Schulz
 description: 'Welcome to my personal webite. Feel free to bookmark to follow my projects'
-url: 'http://patrickschulz.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+#url: 'http://patrickschulz.com/jekyll-uno'
+#baseurl: '/jekyll-uno'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
