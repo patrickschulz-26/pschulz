@@ -6,7 +6,7 @@ tags: [Python]
 ---
 This is a Python based application that takes in historical weather data from winter 2017/2018 and elevation data taken by NASA's Shuttle Radar Topgraphy Misson (SRTM) and creates an risk analysis of any region in the greater Salt Lake City area on any date in the winter season. It contains a command line GUI for the user to imput the name of the area along with four latitude and longitude bounds and outputs a interactive 2D and 3D map for the user to see where the safest area is to ski. An example for Park City, Utah for April 1, 2018 in 3D is seen below:
 
-![My helpful screenshot]({{ "/assets/ava3D.png" }})
+![My helpful screenshot]({{ "/assets/ava3D.png" | https://patrickschulz-26.github.io/pschulz/2018/welcome-to-jekyll/ }})
 
 the example for 2D is seen below:
 
