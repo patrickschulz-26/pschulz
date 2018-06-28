@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Avalanche Prediction Model"
 date:   2018-05-01 15:04:23
 categories: [Python]
