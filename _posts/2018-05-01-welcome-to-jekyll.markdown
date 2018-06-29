@@ -10,7 +10,7 @@ This is a Python based application that takes in historical weather data from wi
 
 the example for 2D is seen below:
 
-![helpfulImg](https://github.com/patrickschulz-26/website/blob/master/assets/ava3D.png)
+![helpfulImg](https://github.com/patrickschulz-26/website/blob/master/assets/ava3D.png?raw=true)
 
 The engine of this program is broken up into three seperate parts. Part one works on taking elevation data given from the SRTM and finding the specific angle of every 40 meter section of the region. Part two creates a snowpack model, an eveluation of each layer of snow, by using the Scipy ordinary diffrental equations module in addition with all the the weather data for all days starting from the begining of the season. The third part of this engine cross referances the snowpack model with the specific angle at each point. This part then adds an extra stress variable for a skiier going down the face of the region. From this data the specific risk of an avalanche from a skier can be found.
 
