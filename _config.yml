@@ -2,6 +2,7 @@
 title: Patrick Schulz
 description: 'Welcome to my personal webite. Feel free to bookmark and follow my projects'
 url: 'https://patrickschulz-26.github.io/website/'
+baseurl: /patrickschulz-26/website
 
 
 author:
