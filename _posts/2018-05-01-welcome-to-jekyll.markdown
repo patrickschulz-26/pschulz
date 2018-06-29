@@ -16,7 +16,7 @@ The engine of this program is broken up into three seperate parts. Part one work
 
 Updates for this program will be coming. These updates will include global historical data so the program can be run anywhere with out limitations. In addition a gradent risk anylysis will be implimented for better user experience.
 
-Check out the on my [github][git] for more info about this project and other.
+Check out my [github][git] for more info about this project and others.
 
 [git]:      https://github.com/patrickschulz-26
 
